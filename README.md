@@ -1,8 +1,8 @@
 ### Hi, I'm Shane
 
-<!-- TODO: 2-3 sentence intro (day job, what this profile is). -->
+Internal medicine physician who also builds software, mostly by taking things apart first.
 
-Building things and taking things apart. Everything here is free and open source.
+This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ventilator teaching) and tools for understanding compiled software. The rest is flight and golf simulators, and small fixes for things that broke. All of it is free and open source.
 
 #### Reverse engineering
 
@@ -81,6 +81,6 @@ Building things and taking things apart. Everything here is free and open source
 
 **Fixes:** [macos-postscript-print-fix](https://github.com/ShaneBreazeale/macos-postscript-print-fix) restores PostScript printing to AirPrint printers over Horizon/Citrix and `lp`. [speechmike-horizon-usb-fix](https://github.com/ShaneBreazeale/speechmike-horizon-usb-fix) gets a Philips SpeechMike into Horizon's USB redirection menu. [invisible-unicode-scan](https://github.com/ShaneBreazeale/invisible-unicode-scan) is a GitHub Action that catches the invisible Unicode used in Glassworm-style supply-chain attacks.
 
-**Golf:** launch monitor bridges for [GSPro](https://github.com/ShaneBreazeale/GSPro-gc2-API-Interface) (GC2 over USB, [Flightscope](https://github.com/ShaneBreazeale/GSPro-Flightscope-OCR-Interface) via OCR) and contributions to the [Square Golf](https://github.com/ShaneBreazeale/squaregolf-connector) and [Garmin](https://github.com/ShaneBreazeale/garmingolf-connector) connectors.
+**Golf:** launch monitor bridges for GSPro: multi-platform Rust connectors for [Square Golf](https://github.com/ShaneBreazeale/squaregolf-connector/releases/latest) and [Garmin](https://github.com/ShaneBreazeale/garmingolf-connector/releases/latest) (forked from community projects), plus older Python bridges for the [GC2 over USB](https://github.com/ShaneBreazeale/GSPro-gc2-API-Interface) and [Flightscope via OCR](https://github.com/ShaneBreazeale/GSPro-Flightscope-OCR-Interface).
 
 **Elsewhere:** [shaneb.org](https://shaneb.org)
