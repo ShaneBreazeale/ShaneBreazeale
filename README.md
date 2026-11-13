@@ -2,7 +2,7 @@
 
 Physician who also builds software, mostly by taking things apart first.
 
-This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ventilator teaching) and tools for understanding compiled software. The rest is flight and golf simulators, and small fixes for things that broke.
+This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ventilator and echo teaching) and tools for understanding compiled software. The rest is flight and golf simulators, and small fixes for things that broke.
 
 #### Reverse engineering
 
@@ -33,23 +33,31 @@ This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ve
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/ShaneBreazeale/openstetho"><img src="assets/openstetho.jpg" alt="openstetho's live viewer: heart-sound waveform over the last 5 seconds above a log-mel spectrogram" width="100%"></a>
       <b><a href="https://github.com/ShaneBreazeale/openstetho">openstetho</a></b><br>
       <sub>Python · <a href="https://github.com/ShaneBreazeale/openstetho/releases/latest">v0.4.1</a></sub><br>
       A toolkit for Bluetooth digital stethoscopes: capture, DSP, log-mel spectrograms and murmur classification on the Apple Neural Engine.
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/ShaneBreazeale/kardia-rs"><img src="assets/kardia-rs.jpg" alt="kardia-rs six-lead limb ECG report from a live Kardia 6L capture, with experimental automated measurements" width="100%"></a>
       <b><a href="https://github.com/ShaneBreazeale/kardia-rs">kardia-rs</a></b><br>
       <sub>Rust</sub><br>
       A Rust Bluetooth LE workbench for the Kardia 6L six-lead ECG.
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/ShaneBreazeale/learn-vents"><img src="assets/learn-vents.jpg" alt="learn-vents waveform tab: peak and plateau pressures, driving pressure and mechanical power above pressure and flow curves" width="100%"></a>
       <b><a href="https://github.com/ShaneBreazeale/learn-vents">learn-vents</a></b><br>
       <sub>Web · <a href="https://pulmcrit.netlify.app">live</a></sub><br>
       An interactive tool for teaching mechanical ventilation physiology to residents and fellows. Sibling: <a href="https://github.com/ShaneBreazeale/insulinclac">insulinclac</a>, a <a href="https://penrx.netlify.app/">PWA</a> for writing insulin pen prescriptions.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://echovision.org"><img src="assets/echovision.jpg" alt="EchoVision tutorial: a severely reduced EF example clip (EF 21.5%) with end-diastolic and end-systolic LV tracings and teaching notes" width="100%"></a>
+      <b><a href="https://echovision.org">EchoVision</a></b><br>
+      <sub>Web · <a href="https://echovision.org">echovision.org</a></sub><br>
+      A deliberate-practice trainer for estimating left ventricular ejection fraction by eye from echocardiogram clips, with immediate feedback on each call. Built on Stanford's EchoNet-Dynamic dataset for a study of residents' visual EF estimation.
     </td>
   </tr>
 </table>
