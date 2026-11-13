@@ -1,8 +1,8 @@
 ### Hi, I'm Shane
 
-Internal medicine physician who also builds software, mostly by taking things apart first.
+Physician who also builds software, mostly by taking things apart first.
 
-This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ventilator teaching) and tools for understanding compiled software. The rest is flight and golf simulators, and small fixes for things that broke. All of it is free and open source.
+This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ventilator teaching) and tools for understanding compiled software. The rest is flight and golf simulators, and small fixes for things that broke.
 
 #### Reverse engineering
 
