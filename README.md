@@ -29,6 +29,8 @@ This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ve
   </tr>
 </table>
 
+**Devices:** [OnnDemand-4kplus](https://github.com/ShaneBreazeale/OnnDemand-4kplus) gives on-demand temporary root and SSH on the onn. 4K Plus Android TV box (`coffey`) without unlocking the bootloader or flashing boot images; a reboot returns it to stock.
+
 #### For the clinic
 
 <table>
