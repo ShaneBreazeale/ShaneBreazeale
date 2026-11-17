@@ -8,26 +8,22 @@ This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ve
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/ShaneBreazeale/rsleigh"><img src="assets/rsleigh.png" alt="rsleigh listing functions in an AArch64 Mach-O and disassembling check_serial, with the FNV-1 constants visible" width="100%"></a>
       <b><a href="https://github.com/ShaneBreazeale/rsleigh">rsleigh</a></b><br>
       <sub>Rust · <a href="https://github.com/ShaneBreazeale/rsleigh/releases/latest">v0.7.0</a></sub><br>
       A pure-Rust reverse engineering workbench driven by Ghidra's SLEIGH specs: multi-arch decompilation, P-code, binary triage and LLM-assisted analysis.
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/ShaneBreazeale/ps5-homebrew-tools"><img src="assets/ps5-homebrew-tools.png" alt="thread-probe-v2 capture from a PS5 Pro on firmware 13.60, summarized by host/summarize_threads.py" width="100%"></a>
       <b><a href="https://github.com/ShaneBreazeale/ps5-homebrew-tools">PS5 homebrew tools</a></b><br>
       <sub>C</sub><br>
       Diagnostic payloads and host tools for PS5 homebrew: process and thread capture, kstuff log decoding, kernel-text capture, offline offset analysis and a native app starter.
     </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/ShaneBreazeale/CrackMe_PyVMP_v6"><img src="assets/pyvmprotect.png" alt="PyVMProtect v6 solve: the captured SHA-256 compare against a 62-character decoy, then the flag" width="100%"></a>
-      <b><a href="https://github.com/ShaneBreazeale/CrackMe_PyVMP_v6">PyVMProtect crackmes</a></b><br>
-      <sub>Python · <a href="https://github.com/ShaneBreazeale/pyvmprotect-static-lift">original</a> · <a href="https://github.com/ShaneBreazeale/crackme-pyvmprotect-v5">v5</a> · <a href="https://github.com/ShaneBreazeale/CrackMe_PyVMP_v6">v6</a></sub><br>
-      Static lifts of three PyVMProtect-obfuscated crackmes, each a custom stack VM: handlers decoded with Unicorn, hash preimage bounds recovered, a Wine audit-hook crack for "The Fortress".
-    </td>
   </tr>
 </table>
+
+**Crackmes:** [PyVMProtect static lifts](https://github.com/ShaneBreazeale/CrackMe_PyVMP_v6) of three PyVMProtect-obfuscated crackmes, each a custom stack VM: handlers decoded with Unicorn, hash preimage bounds recovered, a Wine audit-hook crack for "The Fortress". [original](https://github.com/ShaneBreazeale/pyvmprotect-static-lift) · [v5](https://github.com/ShaneBreazeale/crackme-pyvmprotect-v5) · [v6](https://github.com/ShaneBreazeale/CrackMe_PyVMP_v6)
 
 **Devices:** [OnnDemand-4kplus](https://github.com/ShaneBreazeale/OnnDemand-4kplus) gives on-demand temporary root and SSH on the onn. 4K Plus Android TV box (`coffey`) without unlocking the bootloader or flashing boot images; a reboot returns it to stock.
 
