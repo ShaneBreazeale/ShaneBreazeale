@@ -21,7 +21,7 @@ This profile is two halves of that: tools for the clinic (stethoscopes, ECGs, ve
       Diagnostic payloads and host tools for PS5 homebrew: process and thread capture, kstuff log decoding, kernel-text capture, offline offset analysis and a native app starter.
     </td>
     <td width="33%" valign="top">
-      <a href="https://github.com/ShaneBreazeale/OnnDemand-4kplus"><img src="assets/onndemand.png" alt="onn. 4K Plus Android TV streaming device" width="100%"></a>
+      <a href="https://github.com/ShaneBreazeale/OnnDemand-4kplus"><img src="assets/onndemand.jpg" alt="OnnDemand-4kplus: an onn. 4K Plus box and remote with a terminal reading exploit: coffey, root: granted, ssh: ready" width="100%"></a>
       <b><a href="https://github.com/ShaneBreazeale/OnnDemand-4kplus">OnnDemand-4kplus</a></b><br>
       <sub>Python</sub><br>
       On-demand temporary root and SSH on the onn. 4K Plus Android TV box (<code>coffey</code>), with no bootloader unlock or boot-image flash; a reboot returns it to stock.
